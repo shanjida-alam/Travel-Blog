@@ -1,0 +1,90 @@
+/* font style from google */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap");
+/* shared styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+/* header related styles */
+/* banner section styles */
+.banner {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  width: 1170px;
+  height: 500px;
+  margin: 50px;
+  margin-left: 200px;
+  margin-right: 135px;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+}
+.banner-content {
+  padding-top: 107px;
+  padding-left: 247px;
+  padding-right: 247px;
+}
+.banner-title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+}
+.banner-description {
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-top: 24px;
+}
+.banner-option {
+  display: inline-flex;
+  padding: 16px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  margin-top: 50px;
+  margin-left: 240px;
+  margin-right: 300px;
+  width: 700px;
+  height: 40px;
+}
+.banner-option .box {
+  width: 120px;
+  height: 30px;
+  border-radius: 8px;
+  background: #fff;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 8px;
+}
+.banner-option .select {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.banner-option .space {
+  padding-left: 0px;
+}
+.banner-option .select img {
+  width: 15px;
+  height: 15px;
+  transform: rotate(360deg);
+  border-radius: none;
+  padding-top: 5px;
+}
+.banner-option .find {
+  background: #ff5400;
+  display: flex;
+  gap: 2px;
+}
+.banner-option .find img{
+  width: 15px;
+  height: 15px;
+}
