@@ -84,7 +84,69 @@
   display: flex;
   gap: 2px;
 }
-.banner-option .find img{
+.banner-option .find img {
   width: 15px;
   height: 15px;
+}
+
+/* responsive */
+/* mobile device */
+@media screen and (max-width: 600px) {
+  .banner {
+    width: 100%;
+    height: 500px;
+  }
+  .banner-content {
+    padding: 20px;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
+  .banner-description {
+    font-size: 0.8rem;
+  }
+  .banner-option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 12px;
+    margin-top: 12px;
+    margin-left: 55px;
+    margin-right: 24px;
+    margin-bottom: 32px;
+    width: 300px;
+    height: 270px;
+  }
+  .banner-option .box {
+    width: 266px;
+    height: 52px;
+  }
+  .banner-option .select {
+    display: flex;
+    flex-direction: row;
+    gap: 175px;
+  }
+  .banner-option .type{
+    gap: 140px;
+  }
+  .banner-option .ms{
+    width: 260px;
+  }
+  .banner-option .space {
+    padding-left: 8px;
+  }
+  .banner-option .select img {
+    width: 15px;
+    height: 15px;
+  }
+  .banner-option .find {
+    display: flex;
+    gap: 2px;
+  }
+  .banner-option .find img {
+    width: 15px;
+    height: 15px;
+  }
 }
