@@ -389,6 +389,77 @@
   margin-left: 50px;
   margin-right: 50px;
 }
+/* newsletter related styles */
+#newsletter {
+  margin-top: -55px;
+  margin-left: 10px;
+}
+.newsletter-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.newsletter-form {
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  width: 474px;
+  height: 390px;
+  margin-left: 50px;
+  margin-bottom: 52px;
+}
+.newsletter-form h3 {
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.newsletter-form p {
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 350px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.newsletter-form hr {
+  width: 393px;
+  height: 1px;
+  background: rgba(19, 19, 24, 0.1);
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.newsletter-form input {
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: none;
+  margin-top: 25px;
+  margin-left: 40px;
+  padding-left: 10px;
+}
+.newsletter-form .subscribe {
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  margin-left: 40px;
+  margin-top: 25px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.newsletter-img {
+  width: 672px;
+  height: 475px;
+  background: url("../Images/Rectangle\ 8\ \(1\).png");
+  background-repeat: no-repeat;
+}
 /* footer related styles */
 .footer {
   background: rgba(19, 19, 24, 0.05);
@@ -633,7 +704,7 @@
     margin-top: -70px;
     margin-left: -135px;
   }
-  .choose-us{
+  .choose-us {
     margin-left: 150px;
   }
   .choose-title {
@@ -716,5 +787,49 @@
     font-size: 0.875rem;
     margin-left: 50px;
     margin-right: 50px;
+  }
+  #newsletter {
+    margin-top: -75px;
+    margin-left: 10px;
+  }
+  .newsletter-form {
+    width: 335px;
+    height: 375px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+  .newsletter-form h3 {
+    font-size: 1.25rem;
+  }
+  .newsletter-form p {
+    width: 270px;
+    font-size: 0.875rem;
+  }
+  .newsletter-form hr {
+    width: 270px;
+  }
+  .newsletter-form input {
+    width: 240px;
+    height: 52px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 10px;
+  }
+  .newsletter-form .subscribe {
+    width: 265px;
+    height: 52px;
+    margin-top: 20px;
+  }
+  .newsletter-content {
+    flex-direction: column;
+    gap: 0px;
+     
+  }
+  .newsletter-img {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
