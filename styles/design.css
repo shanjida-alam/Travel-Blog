@@ -95,6 +95,9 @@
 }
 /* main section related styles */
 /* our popular tour section related styles */
+#popular-tour {
+  width: 100%;
+}
 .tour-content {
   padding-top: 20px;
   padding-bottom: 100px;
@@ -150,6 +153,116 @@
   background: lightgray 50%;
   width: 540px;
   height: 550px;
+}
+/* Choose our destination related styles */
+.destination-content h2 {
+  color: #131318;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.destination-content p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 643px;
+  margin-left: 450px;
+  margin-top: 16px;
+  margin-bottom: 100px;
+}
+.destination-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 6px;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+.collage-image {
+  display: flex;
+  gap: 6px;
+}
+.destination-img div {
+  width: 573px;
+  height: 300px;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+}
+.destination-img .img-1 {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 5.png"), lightgray 50%;
+}
+.destination-img .primary {
+  color: #fff;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.destination-img .img-2 {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 8.png"), lightgray 50%;
+}
+.destination-img .img-3 {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 6.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  width: 374px;
+  height: 286px
+}
+.destination-img .img-4 {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 7.png"), lightgray 50%;
+  width: 474px;
+  height: 286px;
+}
+.destination-img .img-5 {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 9.png"), lightgray 50%;
+  width: 274px;
+  height: 286px;
+}
+.destination-img .img-6 {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 11.png"), lightgray 50%;
+  width: 473px;
+  height: 300px;
+}
+.destination-img .img-7 {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 10.png"), lightgray 50%;
 }
 /* footer related styles */
 .footer {
@@ -312,7 +425,7 @@
     gap: 5px;
     margin-bottom: 100px;
   }
-  .tour-description{
+  .tour-description {
     margin-left: 150px;
   }
   .tour-title {
@@ -325,5 +438,16 @@
     width: 335px;
     height: 335px;
     margin-bottom: 50px;
+  }
+  #destination {
+    margin-left: 10px;
+  }
+  .destination-content h2 {
+    font-size: 1.25rem;
+  }
+  .destination-content p {
+    font-size: 0.875rem;
+    width: 309px;
+    margin-left: 50px;
   }
 }
